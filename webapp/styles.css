@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Updated */
+  width: 100%;
+  margin-bottom: 0; /* Added */
+  overflow: hidden;
+  position: relative;
+}
+/*navbar*/
+.header li {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 10rem;
+  margin-top: 1.5rem;
+}
+.header h1 {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 5rem;
+  font-family: 'Wix Madefor Display';
+  color: white;
+}
+.header li a {
+  text-decoration: none;
+  font-family: 'Wix Madefor Display';
+  color: white;
+}
+/*navbar*/
+.join-us-button{
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-weight: 500;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Wix Madefor Display';
+  transition: 1s;
+}
+.join-us-button:hover{
+  background-color: white;
+  color: rgb(53, 53, 53); /* Change the text color on hover */
+  transition: 0.5s;
+}
+
+#landingpage{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('vecteezy_desktop-source-code-and-wallpaper-by-coding-and-programming_3343387 (1).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.header-info {
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  font-family: 'Wix Madefor Display';
+  margin-bottom: 9rem;
+  font-size: 20px;
+  position: relative;
+}
+.header-info h2{
+  font-size: 60px;
+}
+.header-info p{
+  margin: 10px 0px 40px;
+}
+.svg{
+  width: 200px;
+  height: 200px;
+}
+.our-lessons{
+  font-family: 'Wix Madefor Display';
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 50px;
+  height: 80vh;
+}
+.our-lessons h3{
+  font-size: 36px;
+  text-decoration: underline;
+}
+.lessons{
+  display: flex;
+  justify-content: space-between;
+}
+.lesson-item{
+  background-color: rgba(255, 255, 255, 0.7);
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px rgba(127, 127, 127, 0.621);
+}
+/*footer*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-family: 'Wix Madefor Display';
+  font-size: 20px;
+}
+/*footer*/
+.about-us {
+  position: relative;
+}
+.content{
+  display: flex;
+  margin-left: 15rem;
+  font-family: 'Wix Madefor Display';
+  margin-top: -10rem;
+}
+.content p{
+  margin-top: 10rem;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+.about-us h5{
+  text-align: center;
+  font-family: 'Wix Madefor Display';
+  font-size: 50px;
+}
+
+
