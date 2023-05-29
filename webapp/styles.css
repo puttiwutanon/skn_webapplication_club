@@ -109,7 +109,15 @@ body {
   border-radius: 10px;
   margin-bottom: 5%;
   box-sizing: border-box;
-  box-shadow: 10px 5px 5px rgba(127, 127, 127, 0.621);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.lesson-item:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.lesson-item p{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /*footer*/
 footer {
@@ -143,5 +151,69 @@ footer {
   font-family: 'Wix Madefor Display';
   font-size: 50px;
 }
+.contact-us{
+  font-family: 'Wix Madefor Display';
+  margin-bottom: 4rem;
+}
+.contact-us-header{
+  text-align: center;
+}
+h6{
+  font-size: 36px;
+}
+.contact-us-header p{
+  margin-top: -4rem;
+}
+#contact {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
 
 
